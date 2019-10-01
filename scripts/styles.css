@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Integer; 
+    src: url(../fonts/integerFont.ttf); 
+}
+
+@font-face {
+    font-family: General; 
+    src: url(../fonts/17755.ttf); 
+}
+
+@font-face {
+    font-family: Important; 
+    src: url(../fonts/17759.ttf); 
+}
+
+*{
+    font-family: General;
+}
+header{
+    justify-content: center;
+    background-color: rgb(44, 39, 22);
+    text-align: left;
+
+}
+.headMenu{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.headMenu_href{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.headMenu_href a{ 
+    text-decoration: underline;
+    text-transform: uppercase;
+    word-wrap: unset;
+    font-size: 1.4vw;
+    margin-top:2vh;
+}
+.headMenu_href__BG{
+    text-align: center;
+    width: 20vh;
+    padding: 2vh;
+    border-radius: 30%;
+    margin: auto 6vh;
+    background-color: rgba(red, green, blue,0);
+}
+.headMenu_href__BG:hover{
+    background-color: rgb(59, 53, 31);
+}
+.headMenu_label{
+    color:  rgb(252, 255, 230);
+}
+
+.headMenu_contact{
+    color: rgb(252, 255, 230);
+    display: flex;
+    flex-direction: column;
+}
+.topik{
+    font-family: Important;
+    background-color: blue;
+    background-image: url('../image/topic/BG1.jpg');
+    background-size:cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2vw 0vw;
+}
+
+.topik_text__a{
+    font-size: 3.2vw;
+}
+.topik_text__b{
+    font-size: 1.8vw;
+}
+main{
+    display: flex;
+    text-align: center;
+    background-image: url(../image/UI/BG1.jpg);
+    background-size: cover;
+} 
+nav{
+    margin-right: -10vw;
+    flex-grow: 3;
+    padding-top: 6vh;
+}
+.nav_lot{
+    width: 70vw;
+    text-align: left;
+    background-color: rgb(212, 212, 175);
+    font-size: 2vw;
+    margin: 0 auto;   
+}
+.logo_product{
+    width: 30px;
+    height: 30px;
+}
+.nav_lot a{
+    color: black;
+}
+
+.nav_lot-second{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0% auto;
+    width: 70vw;
+    font-size: 2vw;
+    background-color: rgb(44, 39, 22);
+}
+.nav_lot-second a{
+    color: rgb(252, 255, 230);
+}
+.panel{
+    justify-items: baseline;
+    margin: 3vh auto;
+    margin-right: 4%;
+    width: 8vw;
+    flex-grow: 0.5;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+.automatBG{
+    background-size: cover;
+    width: 15vw;
+    height: 30vw;
+    background-image: url(../image/UI/automat.png)
+}
+.automatInfo{
+    top: 27vw;
+    right: 1vw;
+    position: relative;
+    height: 5vh;
+    background-color:  rgb(44, 39, 22);
+    border: 2px solid black;
+    border-radius: 2px;
+    color: green;
+    margin-top: -0.4vw;
+    margin-left: 10px;
+    width: 15wh;
+    white-space: nowrap; 
+    overflow: hidden; 
+}
+.automatInfo span{
+    font-family: Integer;
+    display: inline-block;
+}
+
+.panel h2{
+    margin-top: 3vh;
+    background-color: rgb(34, 132, 243);
+}
+.shop{
+    margin-left: 5vw;
+    width: 70vw;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lot{
+     margin: 4%; 
+}
+.lot img{
+    width: 250px;
+    height: 250px;
+}
+.lotFoot{
+    display: flex;
+    justify-content: center;
+}
+.lotFoot button{
+    border-radius: 50%;
+    background-color: aqua;
+    padding-left: 2vw;
+}
+.price{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vh;
+    padding: 1vh;
+    background-color: gold;
+    border-radius: 50%;
+    border: 1px inset rgb(255, 229, 83);
+    margin-right: -2vw;
+    z-index: 0;
+}
+.product_basket__count{
+    font-size: 3vh;
+    z-index: 1000;
+    margin: auto;
+ 
+}
+.basket_block{
+    display: flex;
+}
+#basket{
+    display: block;
+    overflow-y:scroll; 
+    border: 2px inset rgb(70, 23, 23);
+    width: 15vw;
+    height:30vh;
+    background-color: rgb(197, 197, 23);
+}
+#basket img{
+    height: 7vw;
+    width: 7vw;
+    display: inline-flex;
+    position: static;
+}
+#buyBtn{
+    border-radius: 5%;
+    width: 15.5vw;  
+}
+
+footer{
+    width: 100%;
+    padding: 1% 0%;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-around;
+}
+footer div{
+    margin: 0 auto;
+}
+a{
+    color: rgb(62, 202, 183);
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./scripts/jquery-3.4.1.min.js"></script>
+    <script src="./scripts/Basket.js"></script>
+    <script src="./scripts/CointControl.js" ></script>
+    <script src="./scripts/Anima.js"></script>
+    <link rel="stylesheet" type="text/css" href="scripts/TantekCelik.css">
+    <link rel="stylesheet" type="text/css" href ="scripts/styles.css">
+    <title>HUNGER-shop</title>
+</head>
+<body>
+    <header>
+        <div class="headMenu">
+           <div class="headMenu_label">
+               <img width="200px" src="./image/UI/logo.png" alt="">
+           </div>
+           <div class="headMenu_href">
+                <div  class="headMenu_href__BG"><a href="#">Главная</a></div>
+                <div class="headMenu_href__BG"><a href="#">Акции</a></div>
+                <div class="headMenu_href__BG"><a href="#">Доставка</a></div>
+                <div class="headMenu_href__BG"><a href="#">Контакты</a></div>
+            </div>
+            <div class="headMenu_contact">
+                <p>+7(900) 456-789</p>
+                <p>Мы работаем круглосуточно</p>
+            </div>
+        </div>
+    </header>
+    <div class="topik">
+            <img src="./image/topic/cola1.png" width="20%" height="20%">   
+            <div class="topik_text">
+                <p class="topik_text__a">1литр колы в подарок</p>
+                <p class="topik_text__b">при заказе свыше 500  рублей</p>
+            </div>
+            <div>
+                <img>
+                <img>
+                <img>
+            </div>
+            <img>
+        </div>   
+    <main>
+        <div>
+            <nav>
+                <table class="nav_lot">
+                <tr>          
+                    <td><a href="#">&#160&#160&#160&#160&#160&#160 Все товары</a></td>
+                    <td>
+                        <img class="logo_product" src="../shop/image/logo product/Cola_logo.png">
+                        <a href="#">Coka-cola</a></td>
+                    <td>
+                        <img class="logo_product" src="../shop/image/logo product/Sprite_logo.jpg" alt="">
+                        <a href="#">Sprite</a></td>   
+                </tr>
+                <tr>
+                        <td>
+                            <img class="logo_product" src="../shop/image/logo product/Schweppes_logo.png" alt="">
+                            <a href="#">Schveppes</a></td>
+                        <td>
+                            <img class="logo_product" src="../shop/image/logo product/Pepsi_logo.png" alt="">
+                            <a href="#">Pepsi</a></td>
+                        <td>
+                            <img class="logo_product" src="../shop/image/logo product/7up_logo.png" alt="">
+                            <a href="#">7-UP</a></td>    
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="logo_product" src="../shop/image/logo product/Mountain_Dew_logo.svg.png" alt="">
+                            <a href="#">Mountain Dew</a></td>
+                        <td>
+                            <img class="logo_product" src="../shop/image/logo product/Mirinda_Logo.png" alt="">
+                            <a href="#">Mirinda</a></td>
+                        <td>
+                            <img class="logo_product" src="../shop/image/logo product/fanta_logo.png" alt="">
+                            <a href="#">Fanta</a></td>
+                    </tr>
+                </table>
+                <div class="nav_lot-second">          
+                        <td><a href="#"><img width="30px" height="30px" src="./image/UI/new.png" alt="">Новинки</a></td>
+                        <td><a href="#"><img width="30px" height="30px" src="./image/UI/sale.png" alt="">Скидки</a></td>
+                        <td><a href="#"><img width="30px" height="30px" src="./image/UI/top.png" alt="">Рекомендуем</a></td>    
+                </div>
+            </nav>
+            <div class = "shop">
+                <div class = "lot" id ="l1">
+                    <img src="./image/lot1.jpg">
+                    <p>Кола1(<span class="many-product">9</span>)<p>
+                    <div class="lotFoot">
+                        <span class="price">11</span>
+                        <button>В корзину</button>
+                    </div>    
+                </div>
+                <div class = "lot" id ="l2">
+                    <img src="./image/lot2.jpg">
+                    <p>Кола2(<span class="many-product">9</span>)<p>
+                    <div class="lotFoot">
+                        <span class="price">13</span>
+                        <button>В корзину</button>
+                    </div>    
+                </div>
+                <div class = "lot" id ="l3">
+                    <img src="./image/lot3.jpg">
+                    <p>Кола3(<span class="many-product">9</span>)<p>
+                    <div class="lotFoot">
+                        <span class="price">15</span>
+                        <button>В корзину</button>
+                    </div>    
+                </div>
+                <div class = "lot" id ="l4">
+                    <img src="./image/lot4.jpg">
+                    <p>Кола4(<span class="many-product">9</span>)<p>
+                    <div class="lotFoot">
+                        <span class="price">10</span>
+                        <button class = "r">В корзину</button>
+                    </div>    
+                </div>
+                <div class = "lot" id ="l5">
+                    <img src="./image/lot5.jpg">
+                    <p>Кола5(<span class="many-product">9</span>)<p>
+                    <div class="lotFoot">
+                        <span class="price">30</span>
+                        <button class = "r">В корзину</button>
+                    </div>    
+                </div>
+                <div class = "lot" id ="l6">
+                    <img src="./image/lot6.jpg">
+                    <p>Кола5(<span class="many-product">7</span>)<p>
+                    <div class="lotFoot">
+                        <span class="price">30</span>
+                        <button class = "r">В корзину</button>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class = "panel">
+            <div class="panel_client">
+                <div>
+                    <div class="automatBG">
+                        <div class="automatInfo">
+                            <span id="automatTablo"></span>
+                        </div>
+                    </div>
+                </div>
+                <div id='basket'>
+
+                </div>
+                <button id="buyBtn">
+                    купить
+                </button>
+                <h2>Ваши деньги: <span id="client">000</span></h2>
+                <p>10 руб(<span class="many">4</span>)  <button value="10">внести</button></p>
+                <p>5 руб(<span class="many">12</span>)   <button value="5">внести</button></p>
+                <p>2 руб(<span class="many">40</span>)  <button value="2">внести</button></p>
+                <p>1 руб(<span class="many">20</span>)  <button value="1">внести</button></p>
+                <button id="delivery">сдача</button>
+            </div>
+            <div class="panel_automat">
+                <h2>В автомате: <span id="automat">000</span></h2>
+                <p>10 руб(<span>4</span>) </p>
+                <p>5 руб(<span>12</span>) </p>
+                <p>2 руб(<span>40</span>) </p>
+                <p>1 руб(<span>20</span>) </p>
+            </div>
+            <div>
+                <h2>Внесенная сумма: <span id="cassa"></span></h2>
+            </div>          
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img src="" alt="F">
+            <img src="" alt="В">
+            <img src="" alt="G">
+        </div>
+        <div>
+           <p>&copy;2019 'HUNGER-shop'.Доставка напитков</p> 
+           <p>г.Норильск ул.Ленина д.15</p> 
+        </div>
+        <div class="author">
+            <p>Учебный проект JoeDo</p>
+            <p>Version 2.2</p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

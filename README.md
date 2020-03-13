@@ -1,3 +1,3 @@
 # CointAutomat 
-I start JS ;)
+# I start JS ;)
 
